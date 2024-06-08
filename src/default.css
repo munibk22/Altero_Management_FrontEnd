@@ -1,0 +1,319 @@
+*{
+    /* overflow-x: hidden ;  */
+    scroll-behavior:smooth;
+}
+body{      
+    width: 100vw;   
+    margin: 0px;    
+    overflow-x: hidden; 
+    font-family: "sans-serif",system-ui, -apple-system ,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+/* line-height: 1.4rem; */
+}
+
+.app {
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+    align-items:center;
+  }
+
+.sticky{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.width100{
+    width:100vw;
+    }
+
+    
+.width90{
+    width:90vw;
+    }
+.width80{
+width:80vw;
+}
+
+.width75{
+    width:75vw;
+    
+    }
+
+
+    .width70{
+        width:70vw;
+        
+        }
+
+        .width65{
+            width:65vw;
+            
+            }
+
+.width60{
+     width:60vw;        
+      }
+
+    .width50{
+        width:50vw;        
+                }
+
+                .width40{
+                    width:40vw;
+                    
+                    }
+
+                .width30{
+                    width:30vw;
+                    
+                    }
+                    .width20{
+                        width:20vw;
+                        
+                        }
+
+                        .width10{
+                            width:15vw;
+                            
+                            }
+
+                            .width5{
+                                width:5vw;
+                                
+                                }
+    .max2000{
+        max-width: 2000px !important;
+    }
+
+    .padding1{
+        padding:1%;
+        
+            }
+    .padding2{
+padding:2%;
+
+    }
+h1{
+    /* font-weight: 700 !important; */
+}
+
+
+.margin{
+    margin:auto  !important;
+    right: 0;
+    left: 0;
+}
+
+.margin2{
+margin:2%;
+
+}
+.marginleft2{
+margin-left: 2ch;
+}
+
+.justify{
+    justify-content: center  !important;
+}
+
+.justifystart{
+    justify-content: flex-start  !important;
+}
+
+.justifyend{
+    justify-content: flex-end;
+}
+.justifyaround{
+    justify-content:space-around !important;
+}
+
+.justifybetween{
+    justify-content:space-between  !important;
+}
+
+.aligncontent{
+    align-content: center  !important;
+}
+
+
+.alignitems{
+   
+align-items: center  !important;
+}
+
+
+
+.textalign{
+    text-align: center !important;
+}
+
+
+.flex{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flexwrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexcol{
+    display: flex;
+    flex-direction: column;
+}
+
+.relative{
+    position:relative;
+}
+
+.absolute{
+    position: absolute;
+   
+}
+
+.absolutetop{
+    position: absolute;
+     top:0% ;
+     right:0;
+     left:0;
+
+}
+
+.absolutebottom{
+    position: absolute;
+    bottom:0;
+    right:0;
+    left:0;
+}
+.marginright1{
+    margin-right: 1%;
+}
+.marginright2{
+    margin-right: 2%;
+}
+.marginright5{
+    margin-right: 5%;
+}
+.margintop{
+    margin-top:5%  !important;
+}
+
+.margintop10{
+    margin-top:10%  !important;
+}
+
+.margintop15{
+    margin-top:15%  !important;
+}
+
+.margintop25{
+    margin-top:25%  !important;
+}
+
+.margintop50{
+    margin-top:50%  !important;
+    overflow: hidden !important;
+}
+
+.overflow{
+    overflow: hidden !important;
+}
+
+
+
+
+.hrblue{
+
+    background-color:  2px solid  #01a6e7;
+    width:1px;
+    height:500px;
+    display: inline-block;
+    position: absolute;
+    margin:10%;
+    opacity: .7;
+}
+.hrsticky{
+    /* position:sticky; */
+    top:15%;
+    /* bottom:25%; */
+
+}
+
+
+/* 
+.bod{
+    width:80vw; 
+} */
+
+
+.footer{
+    width:100vw;
+}
+
+.font500{
+font-weight: 500;
+}
+
+.font600{
+    font-weight: 600;
+    font-size: .8rem;
+    }
+
+.font700{
+    font-weight: 700;
+    }
+
+.drop-shadow-filter {
+    filter: drop-shadow(9px 5px 5px rgba(0, 0, 0, 0.5));
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px #000000;
+}
+.text-shadow-header {
+    text-shadow: -1px 2px 3px #000000;
+}
+
+/* img { */
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);  */
+    /* filter: drop-shadow(2px 2px 5px rgba(0, 0, .3, 0.6)); */
+/* } */
+
+@media  (max-width: 700px){ 
+   
+    .hide { 
+        display:none;
+    }
+    .visibility { 
+        visibility:hidden;
+    }
+    
+}
+
+  @media  (max-width: 950px){ 
+    .fontsmall{
+    
+     font-size: 70%;
+     width:100vw;
+     height:50%;
+       
+   
+       }
+     }
+
+     * {
+        margin: 0px;
+     
+        overflow-x: clip  !important;
+      }
+
+      @media (max-width:668px){
+          body{
+              /* font-size:.8em; */
+
+          }
+      }
