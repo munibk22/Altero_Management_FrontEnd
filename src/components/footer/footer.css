@@ -1,0 +1,64 @@
+/* Footer */
+.footer {
+    grid-column: 1/5;
+    width: -webkit-fill-available;
+    padding: 1rem;
+    background-color: #f2e9f4;
+    padding: 10px;
+    text-align: center;
+    /* background: linear-gradient(to right, #efd4f9, white); */
+    background: linear-gradient(to bottom, #0062ff,#03297b 100%);
+    /* linear-gradient(to right, #f38d9f,white); */    
+  }
+
+.contact {
+    grid-column:1/5;
+}
+
+
+.footer-info-section {
+  color:orange;
+}
+
+/* Testimonials Section */
+.testimonials {
+  grid-column: 1 / -1;
+  background-color: #f5f5f5;
+  padding: 40px;
+  text-align: center;
+}
+
+.testimonial {
+  margin-bottom: 40px;
+}
+
+.testimonial blockquote {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonial cite {
+  font-weight: bold;
+}
+
+/* About Section */
+.about {
+  grid-column: 1 / -1;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Footer Section */
+footer {
+  display: grid;
+  grid-template-columns:1fr 2fr 1fr;
+  align-items:center;
+}
+
+@media screen and (max-width:700px){
+  footer {
+    display:flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}

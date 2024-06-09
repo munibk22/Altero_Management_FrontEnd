@@ -11,7 +11,7 @@ const CoinList = () => {
     console.log(watchList);
         useEffect(()=>{
     const fetchData = async ()=>{
-     const response = await CoinGecko.get("/coins/markets", {
+    const response = await CoinGecko.get("/coins/markets", {
             params: {
                 vs_currency:"usd",
                 ids:watchList.join(","),
@@ -28,25 +28,15 @@ const CoinList = () => {
             },[]);
     
     
-            const renderCoins=()=>{
-    return <div className="flexwrap  justifybetween  " style={{maxWidth:'1200px', width:'55vw'}}
->
-    
-    {coins.map((coin) =>{
-    return <Coin key={coin.id} coin={coin} />
-        }
-    )}
-        </div>
-                }
-            
+   const renderCoins = () => <section className="flexwrap justifyevenly render-coins">    
+            {coins.map((coin) => <Coin key={coin.id} coin={coin} />)}
+        </section>;            
     
         return (
-            <div>
-    
+            <>    
                 {renderCoins()}
-            </div>
+            </>
         )
-    }
-    
+    }    
     export default CoinList
     

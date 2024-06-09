@@ -3,9 +3,7 @@ import React from 'react'
 
 export default function Coin({ coin }) {
     return (
-        <div className="flex justifybetween alignitems "
-
-            style={{}}>
+        <div className="flex justifyaround alignitems ">
 
 
             <img className="coinimg marginright1" src={coin.image} alt='' />

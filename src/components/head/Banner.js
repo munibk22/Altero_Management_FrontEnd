@@ -4,18 +4,10 @@ import { WatchListContextProvider } from '../pages/WatchListContext'
 
 export default function Banner() {
     return (
-        <div className="banner  flex justify">
-
-
-            <div className="flex justifyaround " style={{ width: "" }}>
+        <div className="crypto-banner width100 sub-banner ">
                 <WatchListContextProvider>
                     <CoinList />
-
                 </WatchListContextProvider>
-            </div>
-
-
-
-        </div>
+         </div>
     )
 }
