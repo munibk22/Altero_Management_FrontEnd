@@ -17,7 +17,9 @@ function Footer({aosStyle}) {
                     </div>
         </div>
         <article>
-          <h2>Still have questions??</h2>
+          <h3>Interested in our services or need more information? Reach out to us through the contact form aobve
+             or call us at (123) 456-7890. At Altero Management, we are always ready
+            to assist you.</h3>
           <span className='footer-info-section'>email us at:</span><h4>whisperwind22@gmail.com</h4>  
         </article>
         

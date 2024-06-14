@@ -28,7 +28,7 @@ main {
 
   li, details summary, details p{
     margin: 0px;
-    color: #8c5e9e;
+    color: #0902cf;
     font-weight: 600;
   }
 
@@ -103,12 +103,12 @@ main {
         /* display:block; */
         /* align-items: center; */
        }
-       .footer,.form-section{
+       /* .footer,.form-section{
         margin-left:0;
-       }
+       } */
 
       * {
-        overflow-x: hidden !important;
+      
         padding: .6%;    
         /* padding-left:1%; */
       }

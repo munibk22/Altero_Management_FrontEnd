@@ -74,7 +74,7 @@ color:white;
 border: 8px #284243 solid;
 
 /* height: 50px; */
-overflow: hidden;
+
 
     }
 
@@ -107,18 +107,14 @@ overflow: hidden;
         right: 21rem;
         top: 2rem;
             border-radius: 8px;
-            }
+}
 
 .img2{
     width: 17rem;
     height: 21rem;
-    
+    transition: all .4s ease-in-out;
     /* background-image: url("../pics/invest.jpg"); */
-    object-fit: ;
-    
-        }
-
-
+}
 
 
 

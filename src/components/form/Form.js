@@ -74,7 +74,7 @@ export default function Form({aosStlye}) {
         placeholder='Messaage..'></textarea>
 
       <input type='file' name='file'  disabled/>
-      <button type='submit' className='btn'>Submit</button>
+      <button type='submit' className='btn modal-submit-button'>Submit</button>
 
     </form>
   )

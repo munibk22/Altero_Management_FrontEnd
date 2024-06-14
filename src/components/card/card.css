@@ -22,9 +22,9 @@
     border-radius:1rem;
 }
 
-.cat-poster {
-    max-width : 16rem; 
-    height: auto;
+.imgOne {
+    height: -webkit-fill-available;
+    max-width: 20rem;
     border-radius: 1rem;    
     transition: all .4s ease-in-out ;
 }
@@ -37,7 +37,7 @@ img:hover {
 .card-article {
     display: grid;
     gap: .5rem;
-    color:#ca038f;
+    /* color: var(--blue-accent); */
     font-family:  system-ui,'Poetsen One',sans-serif;
     width:clamp(330px, 350px,450px);
     letter-spacing: .5px;
@@ -65,6 +65,10 @@ img:hover {
 .card-article li::before {
     content:'➡️ ';
   }
+.arrow {
+    color:chartreuse;
+    text-shadow: 0px 1px 2px #000000;
+}
 
 @media screen and (max-width:570){   
    .card-pricing {   

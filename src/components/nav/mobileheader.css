@@ -10,13 +10,17 @@
     grid-column: 1/5;
     /* place-self:center; */
     min-width:100vw;   
-    background: linear-gradient(to right, #f2e9f4, #ffffff);
+    background: linear-gradient(to right, #093863,
+    var(--blue-main),
+     var(--blue-main));
   }
 
+ 
 .header-section.active {
   box-shadow: var(--shadow-1);
-  animation: slideIn 0.5s ease-out forwards;
-  z-index: 4;
+  animation: slideIn 0.5s ease-out forwards;  
+  z-index: 5;
+  display:block;
 }
 
 header {
@@ -34,9 +38,6 @@ header {
   .headerfont2{
     font-family: "Poetsen One", sans-serif;
     font-weight: 300;
-    font-style: normal;
-    color:#ff00b3;
-    /* color:orange; */
   }
 
   @keyframes slideIn {

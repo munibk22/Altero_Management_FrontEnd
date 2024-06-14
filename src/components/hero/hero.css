@@ -4,7 +4,7 @@
 .hero-section {
     grid-column: 1/5;
     /* background: url('../src/components/assests/catgirl1.jpg'); */
-    background: linear-gradient(to right, #0d1720, #0665b3, #3f7293,white);
+    background: linear-gradient(to right, #162737, #0665b3, #3f7293, #3f7293,#162737);
     width: -webkit-fill-available;
     text-align: center;
     padding:1rem;
@@ -19,6 +19,6 @@
 @media screen and (max-width:450px) {
     .hero-section {
         color: white;
-        background: #f38d9f;
+        background: var(--blue-main);
     }
 }

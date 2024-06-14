@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Nav() {
     return (
-        <nav className="navbar sticky font600 width100 flexwrap navul sub-banner" >  
-            {/* <section className="flexwrap navul"> */}
+        <nav style={{marginTop: "-32px" }}
+         className="navbar font600 width100 flexwrap navul sub-banner" >             
                 <li className="home">
                     <a href="#home">Home</a>
                 </li>
@@ -21,10 +21,7 @@ export default function Nav() {
 
                 <li className="">
                 <a href="/signup">Sign Up</a>
-                </li>
-            {/* </section> */}
-
-            
+                </li>  
         </nav>
     )
 }

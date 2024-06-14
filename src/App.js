@@ -1,19 +1,53 @@
-import React,{useEffect,useContext, useRef} from 'react';
+import React,{useEffect,useContext, useRef, useState} from 'react';
 import './default.css';
 
 
-import {Head,Nav,Banner,BodyHeader,Hero, Card, Footer, Form, Header,Main1, Main2,
+import {Head,Nav,Banner,BodyHeader,Hero, Card, Footer, Form, MobileHeader,Main1, Main2,
   Pricing,  AOS, ToastContainer, toast,
-  art1,art2,pricing1,catPostImg,priceGirl,catgirl,catPromo} from './components/Imports.js';
+  art1,art2,pricing1,imgOne,priceGirl,catgirl,img2} from './components/Imports.js';
 
 function App() {
-  const headerRef = useRef(null);
+  
+  const stickyElementRef = useRef(null); 
+  const [isStickyActive, setIsStickyActive] = useState(false);
+  const [isSticky, setSticky] = useState(false);
+
+  const checkScrollTop = () => {
+    const stickyElement = stickyElementRef.current;
+    // Change the number 150 to the point you want the element to stick at
+    if (stickyElement) {
+      const stickyElementOffsetTop = stickyElement.offsetTop;
+    setSticky(window.scrollY > 433);
+
+    }
+
+  };
+  
+  const handleScroll = () => {
+    const stickyElement = stickyElementRef.current;
+    if (stickyElement) {
+      const stickyElementOffsetTop = stickyElement.offsetTop;
+      const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+      if (scrollPosition >= stickyElementOffsetTop) {          
+        setIsStickyActive(()=>true);
+        // header.classList.toggle('show');
+        // header.classList.toggle('show','active')
+      //   window.scrollY >= stickyElementOffsetTop ? header.classList.add('show','active')
+      // : header.classList.remove('show','active');
+
+      } else {
+        setIsStickyActive(false);
+        // header.classList.remove('show','active');
+      }
+    }
+  };
 
   useEffect(() =>{
-    const header = headerRef.current;
+    // const header = stickyElementRef.current;
 
-    // window.addEventListener('scroll',()=> window.scrollY >= 10 ? header.classList.add('active')
-    // : header.classList.remove('active'));
+    // window.addEventListener('scroll',()=> window.scrollY >= 40 ? header.classList.add('active')
+    // : header.classList.remove('active'));   
 
     AOS.init({
       duration: 1000,
@@ -21,22 +55,33 @@ function App() {
       delay: 100,
     });
 
+    window.addEventListener('scroll', checkScrollTop);
+    return () => {
+      window.removeEventListener('scroll', checkScrollTop);
+    };
+
   },[]);
 
   
   return (
     <div className="app">     
 
-    <Head />
-    <Nav />
+    <Head />   
+    <Nav  />
     <Banner />
+
+    <section ref ={stickyElementRef} 
+    className={isSticky ? 'drop-shadow-filter header-section sticky active' : 'hide'}>  
+    <MobileHeader  />
+    </section>
+  
     <BodyHeader />
 
 
     
 {/*Hero Section 1*/}
 <div className='hero-section text-shadow'>
-      <Hero text={"Welcome Streamers and OnlyFan Models"}
+      <Hero text={"Welcome to Altero Management - Your Gateway to Premium Real Estate and Financial Investments"}
       //  img={catgirl}
       />
     </div>
@@ -49,7 +94,7 @@ function App() {
 <section className='card-section margin-top-1'  >
   
   <Card article={art1} />
-  <Card img={catPostImg} aosStyle='fade-left'/>
+  <Card img={imgOne} aosStyle='fade-left'/>
 </section>
 
 
@@ -57,7 +102,7 @@ function App() {
 <div className='hero-section mid-hero margin-top-3 text-shadow'>
      
        <Hero text = {` 
-      Why work with us? Click arrows to learn more
+      Property Highlights Click arrows to learn more
     
     ` }
        className={"clear-pricing "} />
@@ -99,7 +144,7 @@ function App() {
     <section className='card-pricing margin-top-1' >
       <section  className='card-col-1'> 
       <Card article={art2}   aosStyle='fade-right'/>
-      <Card img={catPromo}  aosStyle='fade-right'/>
+      <Card img={img2}  aosStyle='fade-right'/>
          </section>
       <Card article={pricing1} aosStyle='fade-left'/>
     </section>
@@ -110,7 +155,7 @@ function App() {
 <div className='hero-section mid-hero margin-top-3'>
      
        <Hero text = {<span className="text-shadow" style={{fontSize:"1.5rem"}}><span className="hide">⬇️</span>
-       Ready to get started? Enter your deets blelow ⬇️</span> }
+       Connect with Altero Management - Enter your details blelow ⬇️</span> }
        className={"text-shadow"} />
        
     </div>
@@ -120,7 +165,6 @@ function App() {
 
  {/* Section for Form submission */}
     <section className="form-section " id='formId'>
-        {/* <section data-aos='fade-down'>Ready to get started? Enter your deets below..</section> */}
         <Form aosStlye="zoom-in"/>      
     </section>
     </main>

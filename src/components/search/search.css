@@ -13,29 +13,24 @@
    background-color: var(--blue-accent) ;
     border-radius: 990px;
     left:'-5px';
-/*    
-    top: 0;
-    bottom: 0; */
     color:white;
     /* padding: .6%; */
     min-width: 14%;
     /* align-items: center; */
     text-align: center;
-    padding: .55em;
+    padding: .5em;
     width: 5rem;
     height: fit-content;
   
   }
 
   .search-bar{
-    width: 65vw;
+    width: 64vw;
     border:none;
     /* height:145px; */
-
     /* padding:10px; */
     outline: 0px;
     min-height:29px;
-    /* padding: .7% !important; */
     border-radius: 990px;
     max-width: 15900px;
    

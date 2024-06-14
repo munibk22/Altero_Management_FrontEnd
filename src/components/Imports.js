@@ -11,7 +11,7 @@ import Pricing from './pricing/Pricing.js';
 import Card from './card/Card.js';
 import Footer from './footer/Footer.js';
 import Form from './form/Form.js';
-import Header from './header/Header';
+import MobileHeader from './nav/MobileHeader.js';
 
 import Main1 from './main/Main1.js';
 import Main2 from './main/Main2.js';
@@ -24,9 +24,10 @@ import BodyHeader from './body/BodyHeader';
 
 
 export const art1 =  <article className='card-article' data-aos="fade-right">  
-<h3>Skip the dead end min wage jobs</h3>
+<h4>At Altero Management, we offer a wide range of investment options tailored to meet your financial goals. 
+  </h4>
 <ul className='card-article-list'>
- <li>Did you know online modeling can earn between 5k-10k a month?!</li>
+ <li> We are dedicated to helping our clients achieve their financial goals through smart and strategic decisions.</li>
  <li>From buying expensive computer equipment to setting up social media accounts, we got you covered! 💯</li>
  <li>Offering services to steup and promote OnlyFans, Social Media, and Webcam accounts</li>
  <li><strong>Special offer:</strong> <em>No cost to get started today for new streamers & models</em></li>
@@ -34,15 +35,17 @@ export const art1 =  <article className='card-article' data-aos="fade-right">
  
 </ul>
 </article>;
-export const art2 =  <article className='card-article'>
-Low Pricing, great way to get started without all the expenses{"->"}  
-</article>;
+export const art2 =  <h4 className='card-article '>
+Altero Management is a leading provider of high-quality real estate properties and
+ financial investment services. We are dedicated to helping our clients achieve their
+  financial goals through smart and strategic decisions. <span className='arrow text-wrap'>{"->"}</span>  
+</h4>;
 
 export const pricing1 = <Pricing />;
-export const catPostImg = <img alt='cat poster' src='https://i.imgur.com/KUbpeiF.png' className='cat-poster'/> ;
-export const priceGirl = <img alt='price girl poster' src='https://i.imgur.com/m01XvNK.jpg' className='cat-poster  padding-1 border-radius-1 drop-shadow-filter'/>;
-export const catgirl = <img src='https://i.imgur.com/qWNaxtj.png' className='cat-girl-hero' alt='cat girl' />;
-export const catPromo = <img src='https://imgur.com/FNKFJHg.png' className='cat-poster drop-shadow-filter' alt='cat girl' />; 
+export const imgOne = <img alt='building poster' src='https://i.imgur.com/5U4NvM6.jpeg' className='imgOne box-shadow2'/> ;
+export const img2 = <img alt='building poster' src='https://i.imgur.com/u525EqD.png' className='img2 box-shadow'/> ;
+
+
 
 
 
@@ -66,7 +69,7 @@ export  {
     Card, 
     Footer,
     Form,
-    Header,
+    MobileHeader,
     Hero,
     Main1, Main2,
     Pricing, 
