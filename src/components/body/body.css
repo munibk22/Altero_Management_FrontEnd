@@ -58,9 +58,16 @@ color:white;
 }
 
 .headerb:hover{
-    transform: scale(1.05);
-
+    transform: scale(1.05);             
 }
+
+/* .headerb i {
+    transition: all .4s ease-in-out;
+}
+.headerb i:is(:hover,:focus){
+    background-color:var(--rich-black-fogra-29);
+    border-radius:2rem;
+} */
 
 .container{
     width: 75vw;
