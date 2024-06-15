@@ -3,7 +3,7 @@ import React, {useEffect } from 'react';
 // import Body from './body/Body'
 // import './body/body.css'
 import './body/body.css';
-import Head from './head/Head.js';
+import HeadModule from './head/HeadModule.js';
 import Nav from './head/Nav.js';
 import Banner from './head/Banner.js';
 import Hero from './hero/Hero.js';
@@ -24,21 +24,21 @@ import BodyHeader from './body/BodyHeader';
 
 
 export const art1 =  <article className='card-article' data-aos="fade-right">  
-<h4>At Altero Management, we offer a wide range of investment options tailored to meet your financial goals. 
-  </h4>
+<h5>At Altero Management, we offer a wide range of investment options tailored to meet your financial goals. 
+  </h5>
 <ul className='card-article-list'>
  <li> We are dedicated to helping our clients achieve their financial goals through smart and strategic decisions.</li>
- <li>From buying expensive computer equipment to setting up social media accounts, we got you covered! 💯</li>
- <li>Offering services to steup and promote OnlyFans, Social Media, and Webcam accounts</li>
- <li><strong>Special offer:</strong> <em>No cost to get started today for new streamers & models</em></li>
- <li>Ready to get start? Contact us today!<a href="#formId"> ⬇️</a></li>
+ <li>Unlock Your Financial Potential: Explore our curated investment opportunities. From residential properties to 
+  financial markets, we’ve got options that fit your goals🌟 </li>
+ <li>Residential Gems: Discover homes that offer both comfort and value🏡</li>
+ <li>Personalized Service: We treat every client like family🤝  </li>
+ <li>Let’s Talk Real Estate!<a href="#formId"> ⬇️</a></li>
  
 </ul>
 </article>;
 export const art2 =  <h4 className='card-article '>
 Altero Management is a leading provider of high-quality real estate properties and
- financial investment services. We are dedicated to helping our clients achieve their
-  financial goals through smart and strategic decisions. <span className='arrow text-wrap'>{"->"}</span>  
+ financial investment services. Unleash Your Inner Real Estate Mogul! 💰
 </h4>;
 
 export const pricing1 = <Pricing />;
@@ -65,7 +65,7 @@ export const img2 = <img alt='building poster' src='https://i.imgur.com/u525EqD.
 
 
 export  {
-    Imports,Head,Nav,Banner,BodyHeader,
+    Imports,HeadModule as Head,Nav,Banner,BodyHeader,
     Card, 
     Footer,
     Form,

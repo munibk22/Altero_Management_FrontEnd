@@ -29,7 +29,7 @@ main {
   li, details summary, details p{
     margin: 0px;
     color: #0902cf;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   details p{
@@ -51,6 +51,7 @@ main {
   .main1{
     grid-column:2/4;
     grid-row: 2/3;
+    
   }
   .main2{
     grid-column:4/5;

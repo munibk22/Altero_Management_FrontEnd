@@ -81,15 +81,14 @@ function App() {
     
 {/*Hero Section 1*/}
 <div className='hero-section text-shadow'>
-      <Hero text={"Your Gateway to Premium Real Estate and Financial Investments"}
+      <Hero text={"Welcome to Altero Management"}
       //  img={catgirl}
       />
     </div>
 
 {/* Info Section */}
     <section className='info-section ' data-aos="zoom-in-right"
-    ><h2> Ready to get started in the lucrative industry of online streaming? 
-       </h2></section>
+    ><h3>Your Gateway to Premium Real Estate and Financial Investments</h3></section>
 
 {/*Card Section */}
 <section className='card-section margin-top-1'  >
@@ -103,7 +102,7 @@ function App() {
 <div className='hero-section mid-hero margin-top-3 text-shadow'>
      
        <Hero text = {` 
-      Property Highlights Click arrows to learn more
+      🏠 Property Highlights 🏠
     
     ` }
        className={"clear-pricing "} />
@@ -115,12 +114,7 @@ function App() {
 
 {/* Main Body */}
     <main className="body-section">
-
-    {/* <article className="sub-header margin-top-2 " data-aos="zoom-in-right">
-      <h1>Why work with us? <span className='learn-more '>Click to learn more
-       <a href='#infoSection' className='arrow'> ↓</a> &nbsp;</span> 
-    </h1>   <hr />
-    </article> */}
+  
     <section className='card-pricing margin-top-1'>
       <section className="main1" id='infoSection' data-aos="fade-right">
         <Main1 />
@@ -131,11 +125,9 @@ function App() {
     </section>
     </main>
 {/*Mid-Hero Section 3 Pricing*/}
-<div className='hero-section mid-hero margin-top-3 text-shadow'>
-     
-       <Hero text={"💎💎 Clear Pricing 💎💎" } className={"clear-pricing hero-section"}/>
-       
-    </div>
+<div className='hero-section mid-hero margin-top-3 text-shadow'>     
+       <Hero text={"💎💎 Investment Opportunities Await 💎💎" } className={"clear-pricing hero-section"}/>
+</div>
 
 {/* Main Body 3rd*/}
 <main className="body-section">

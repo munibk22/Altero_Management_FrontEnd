@@ -61,7 +61,7 @@ const LoginForm = () => {
                         style={{ width: "30%", backgroundColor: "#dc3545" }}
                         size="lg" type="submit">Close</button>
                 </div>
-
+                <button type='button'>Need to register?</button>
             </form>
 
         </div>

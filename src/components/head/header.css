@@ -192,7 +192,7 @@
   padding: 3px 20px;
   /* background: transparent; */
   cursor: pointer;
-  /* font-size: .8rem; */
+  font-size: .6rem;
   border-radius:2rem;
 }
 
@@ -254,7 +254,7 @@
   .header-login {
       grid-row: 3/4;
       grid-column:1/2; 
-      display: flex;     
+      
       }
 
   .logo-container {

@@ -9,7 +9,11 @@ body{
     font-family: "sans-serif",system-ui, -apple-system ,sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
 /* line-height: 1.4rem; */
+}
+ul{
+    padding-left: 0;
 }
 
 .app {

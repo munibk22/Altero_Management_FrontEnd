@@ -4,9 +4,8 @@ export const HeadSlogan = () => {
     return (
         <section className="head-slogan" >
             Change The Conversation,
-            <ul>
-                Change The Compensation
-            </ul>
+            <br />
+            &nbsp; &nbsp; &nbsp; Change The Compensation
         </section>
     )
 }

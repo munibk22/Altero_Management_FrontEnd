@@ -5,6 +5,7 @@
     gap: 0 2rem;
     justify-content: space-around;
     line-height: 2;
+    cursor:pointer;
     /* min-width: 50vw;
     /* width: 100%; */
     /* max-width:max-content; */
@@ -20,6 +21,7 @@
     flex-direction: column;
     align-items: center;
     border-radius:1rem;
+    min-width: 390px;
 }
 
 .imgOne {
@@ -39,8 +41,8 @@ img:hover {
     gap: .5rem;
     /* color: var(--blue-accent); */
     font-family:  system-ui,'Poetsen One',sans-serif;
-    width:clamp(330px, 350px,450px);
-    letter-spacing: .5px;
+    width:clamp(350px, 365px,450px);
+    letter-spacing: .1px;
 }
 .card-article-list {
     display: grid;

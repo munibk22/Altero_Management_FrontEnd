@@ -16,7 +16,7 @@ export default function Nav() {
                 </li>
 
                 <li className="">
-                    <a href="#contact">Contact</a>
+                    <a href="#contactUs">Contact</a>
                 </li>
 
                 <li className="">

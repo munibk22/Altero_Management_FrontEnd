@@ -46,6 +46,12 @@ export const LoginModule = () => {
         }
     };   
 
+    const openRegistration = (e) => {
+        e.preventDefault();
+        handleClose();
+        // window.location.href = "/registration";
+    }
+
     return (
         < >
             <div ref={loginBtnref} className="modalBtn flex alignitems login-btn"
@@ -53,7 +59,7 @@ export const LoginModule = () => {
                 <img type="button" src="
                 https://cdn3.iconfinder.com/data/icons/UltimateGnome/256x256/actions/gnome-session-logout.png
                 " alt="login pointer"
-                style={{ width: "26px", height: '25px', marginBottom: "3px", padding: "" }}>
+                style={{ width: "26px", height: '25px', marginBottom: "3px" }}>
                 </img>
                 <span className="" style={{ color: "whitesmoke", marginLeft: "5px" }}>
                     User Login
@@ -90,6 +96,7 @@ export const LoginModule = () => {
             
                 <button className='modal-submit-button' onClick={handleLogin}>Login</button>
                 <button className='modal-close-btn' onClick={handleClose}>Cancel</button>
+                <section type='button' className='open-registration' onClick={openRegistration}>Need to register?</section>
             </div>
         )}
         </ >

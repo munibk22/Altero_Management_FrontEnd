@@ -1,13 +1,13 @@
 import React from 'react'
 import './header.css'
 import Search from '../search/Search.js';
-import Nav from './Nav'
+import Nav from './Nav.js'
 import { LoginModule } from '../utils/LoginModule.js';
-import { HeadSlogan } from './HeadSlogan';
+import { HeadSlogan } from './HeadSlogan.js';
 // import Icon from '../../assests/fav.png';
 // import CarouselApp from './Carousel'
 
-export default function Head() {
+export default function HeadModule() {
     return (
         <section className="head relative" id="home">
 {/* Row-Top-Spacer */}

@@ -6,31 +6,37 @@ function Main1() {
 
      <ul>         
         <details>
-            <summary>Ultra 4K HD Webcam 🎥 </summary>
-            <p>Logitech 4k webcam for streaming.</p>
-            <p> High quality cams have proven to <br /> increase income.</p>
+            <summary>Market Insights 🎥 </summary>
+            <p>Stay informed with our market updates:</p>
+            <p>Market Watch: Trends, forecasts, and investment tips.</p>
+            <p>Insider Tips: Navigating the real estate landscape.</p>
         </details>
         <details>
-            <summary>Fast Computer 💻 </summary>
-            <p>High quality graphics card and RAM.</p>
+            <summary>Client-Focused Approach:  🎯  </summary>
+            <p>Your goals are our priority.</p>
         </details>
         <details>
-            <summary>Well Lighted Room </summary>
-            <p>Good lighting increase stream quality<br /> and income.</p>
+            <summary>Unlock Your Financial Potential: </summary>
+            <p>Explore our curated investment opportunities. </p>
+            <p>From residential properties to commercial spaces,</p>
+            <p>  we’ve got options that fit your goals. </p>
         </details>
         <details>
-            <summary>Clean Space 🫧 </summary>
-            <p>Rooms cleaned and sanized daily.</p>
+            <summary> Investment Opportunities Await 🌟</summary>
+            <p>Explore our curated investment opportunities.<br />
+              From residential properties to commercial spaces, <br />
+              we’ve got options that fit your goals. 🏢</p>
         </details>
         <details>
-            <summary>Discounted rooms available 🛏️</summary>
-            <p>Offering discount on rent for active <br />streamers. /n
-                 Contact us to learn more.</p>
+            <summary>Transparency:</summary>
+            <p>No hidden fees or surprises. </p>
         </details>  
        
         <details>
-            <summary>Shuttle Service Available 🚗</summary>
-            <p>Within 20 min of our location. <br /> Contact us.</p>
+            <summary>Don't Wait, Invest in Your Future Today!</summary>
+            <p>Ready to take control of your financial future <br />
+            and build lasting wealth?  Altero Management is here <br />
+            to guide you every step of the way. </p>
         </details>    
      </ul>
     </> );

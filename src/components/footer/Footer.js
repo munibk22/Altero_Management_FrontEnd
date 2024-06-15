@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.css';
+import Social from './Social';
 
 function Footer({aosStyle}) {
     return (
@@ -16,11 +17,17 @@ function Footer({aosStyle}) {
                         </iframe>
                     </div>
         </div>
-        <article>
-          <p>Interested in our services or need more information? Reach out to us through the contact form above
-             or call us at (123) 456-7890. At Altero Management, we are always ready
-            to assist you.</p>
-          <span className='footer-info-section'>email us at:</span><h4>whisperwind22@gmail.com</h4>  
+        <article id='contactUs' className='footer-contact'>
+            <p>Contact Us:</p>
+          <p>Ready to take the next step? Reach out today!
+            </p>
+            <p>📞Call us at: (123) 456-7890 
+            </p>
+          <span className='footer-info-section'>📧 Email us at whisperwind22@gmail.com</span> 
+          <p>We are always ready to assist you.</p> 
+
+                <hr />
+                <Social />
         </article>
         
                     <div className="flexcol justifyend  padding1" style={{ color: 'burlywood', }}>

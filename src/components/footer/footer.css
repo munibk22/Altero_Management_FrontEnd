@@ -58,6 +58,29 @@ footer {
   color: #cfa900;
 }
 
+.footer-contact {
+  display:grid;
+  gap:.4rem;
+}
+
+.social-grp {
+  gap: 1rem;
+}
+.social {
+  color: white;
+  cursor: pointer;
+  /* border-radius: 10px; */
+  transition: all .3s ease-in-out;
+  font-size: 2ch;
+  opacity: .8;
+}
+.social:hover{
+  background-color: rgb(2, 15, 111);    
+  transform: scale(1.07); 
+}
+
+
+
 @media screen and (max-width:700px){
   footer {
     display:flex;
