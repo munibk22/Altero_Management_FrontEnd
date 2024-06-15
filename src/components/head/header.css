@@ -84,6 +84,7 @@
   .logo-container2 {
     width: 16%;
     justify-self: center;
+    margin-left:-100px;
   }
     
   .coinimg {
@@ -196,7 +197,7 @@
 }
 
 .search-container {
-  margin-top: -9px;
+  /* margin-top: -15px; */
 }
 
 @media screen and (min-width:1440px) { 

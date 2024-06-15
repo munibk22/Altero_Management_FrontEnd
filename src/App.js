@@ -81,14 +81,15 @@ function App() {
     
 {/*Hero Section 1*/}
 <div className='hero-section text-shadow'>
-      <Hero text={"Welcome to Altero Management - Your Gateway to Premium Real Estate and Financial Investments"}
+      <Hero text={"Your Gateway to Premium Real Estate and Financial Investments"}
       //  img={catgirl}
       />
     </div>
 
 {/* Info Section */}
-    <section className='info-section ' data-aos="zoom-in-right"><h2> Ready to get started in the lucrative industry of online streaming? 
-      We got you! <a href='#formId' className='arrow' >↓</a></h2></section>
+    <section className='info-section ' data-aos="zoom-in-right"
+    ><h2> Ready to get started in the lucrative industry of online streaming? 
+       </h2></section>
 
 {/*Card Section */}
 <section className='card-section margin-top-1'  >
@@ -155,7 +156,7 @@ function App() {
 <div className='hero-section mid-hero margin-top-3'>
      
        <Hero text = {<span className="text-shadow" style={{fontSize:"1.5rem"}}><span className="hide">⬇️</span>
-       Connect with Altero Management - Enter your details blelow ⬇️</span> }
+       Connect with Altero Management ⬇️</span> }
        className={"text-shadow"} />
        
     </div>

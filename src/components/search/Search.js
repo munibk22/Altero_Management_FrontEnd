@@ -4,7 +4,7 @@ import './search.css'
 
 export default function Search() {
     return (
-        <div className=" flex justifyend alignitems " style={{ marginTop: '1%' }}>
+        <div className=" flex justifyend alignitems " >
             <input className="relative search-bar " type='text' value=''
                 style={{}}>
 

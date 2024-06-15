@@ -54,6 +54,9 @@ footer {
   grid-template-columns:1fr 2fr 1fr;
   align-items:center;
 }
+.anchor {
+  color: #cfa900;
+}
 
 @media screen and (max-width:700px){
   footer {

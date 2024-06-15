@@ -41,9 +41,11 @@ export default function Head() {
             
 {/* Row-2 Col-3 */}        
     <div className="flex alignitems headrow2 headrow-2-attributes">
-    {/* <div className="logo-container2 headerimg headrow2 mobilehide">
-            <img src={Icon} alt='company logo' style={{ width: "", float: '' }} className="logo drop-shadow-filter" />
-    </div> */}
+    <div className="logo-container2 headerimg headrow2 mobilehide">
+            <img src='https://i.imgur.com/VPecYgG.png'
+             alt='company logo' style={{ width: "", float: '' }} 
+             className="logo drop-shadow-filter" />
+    </div>
 
         <div className="font500 textalign text-shadow">
             <h1 className="main-header">
