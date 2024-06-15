@@ -29,7 +29,16 @@
     color: #fff;
     margin: 5px;
     cursor: pointer;
+    align-self: center;
+    transition: var(--transition-1);
   }
+  .modal-submit-button:is(:hover,:focus) {
+    background-color:var(--rich-black-fogra-29);
+  }
+  /* .footer-form .btn:is(:hover, :focus) {
+    background-color: var(--rich-black-fogra-29);
+} */
+
   .modal-close-btn {
     cursor: pointer;
     text-wrap: nowrap;

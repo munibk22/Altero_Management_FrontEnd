@@ -21,8 +21,12 @@ export default function Social() {
                 </div>
                 <div className="socialbackground justify alignitems " >
                     <a href="/" > <i class="fas fa-envelope social">  </i> </a>
-
                 </div>
+                {/* <li>
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-pinterest" role="img" class="md hydrated" aria-label="logo pinterest"></ion-icon>
+                    </a>
+                </li> */}
 
         </div>
     )

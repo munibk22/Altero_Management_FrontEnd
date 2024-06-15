@@ -1,9 +1,4 @@
-:root {
-  --red-bottom-dark: #8a3f3f;
-  --blue-bottom-dark: #0d1720;
-  --blue-accent: #3f7293;
-  --blue-main:#0665b3;
-}
+
 .head {
     width:100vw;    
     min-height: 54vh;  
