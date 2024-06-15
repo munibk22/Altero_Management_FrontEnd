@@ -36,10 +36,10 @@ export const LoginModule = () => {
         //    let data = await <Fetch username={username} password={password} />
            let data = await fetchRequest(username,password,'user/login');
            // const response = await axios.get(url2);
-           if (response.status === 200) {
-               console.log("User successfully loggin in");
-               setShowModal(false);
-            }
+        //    if (response.status === 200) {
+        //        console.log("User successfully loggin in");
+        //        setShowModal(false);
+        //     }
         } catch (error) {
             console.log("User cound not log in " + error);
             
