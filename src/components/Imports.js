@@ -24,15 +24,15 @@ import BodyHeader from './body/BodyHeader';
 
 
 export const art1 =  <article className='card-article' data-aos="fade-right">  
-<h5>At Altero Management, we offer a wide range of investment options tailored to meet your financial goals. 
-  </h5>
+<h4>At Altero Management, we offer a wide range of investment options tailored to meet your financial goals. 
+  </h4>
 <ul className='card-article-list'>
  <li> We are dedicated to helping our clients achieve their financial goals through smart and strategic decisions.</li>
  <li>Unlock Your Financial Potential: Explore our curated investment opportunities. From residential properties to 
   financial markets, we’ve got options that fit your goals🌟 </li>
  <li>Residential Gems: Discover homes that offer both comfort and value🏡</li>
  <li>Personalized Service: We treat every client like family🤝  </li>
- <li>Let’s Talk Real Estate!<a href="#formId"> ⬇️</a></li>
+ <li><a href="#formId">Let’s Talk Real Estate! </a></li>
  
 </ul>
 </article>;
