@@ -47,7 +47,7 @@ export default function HeadModule() {
              className="logo drop-shadow-filter" />
     </div>
 
-        <div className="font500 textalign text-shadow">
+        <div className="font500 textalign text-shadow" data-aos='zoom-in'>
             <h1 className="main-header">
                 ALTERO MANAGEMENT CORP</h1>
             <p style={{
