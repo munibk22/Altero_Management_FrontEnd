@@ -17,7 +17,7 @@ function App() {
     // Change the number 150 to the point you want the element to stick at
     if (stickyElement) {
       const stickyElementOffsetTop = stickyElement.offsetTop;
-    setSticky(window.scrollY > 470);
+    setSticky(window.scrollY > 510);
 
     }
 
