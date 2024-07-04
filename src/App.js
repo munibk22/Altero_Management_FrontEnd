@@ -17,7 +17,7 @@ function App() {
     // Change the number 150 to the point you want the element to stick at
     if (stickyElement) {
       const stickyElementOffsetTop = stickyElement.offsetTop;
-    setSticky(() => window.scrollY > 650);
+    setSticky(() => window.scrollY > 700);
 
     }
 
@@ -65,15 +65,18 @@ function App() {
   
   return (
     <div className="app">     
-
+    <section ref ={stickyElementRef} 
+      className={isSticky ? 'drop-shadow-filter header-section sticky' : 'hide'}>  
+      <MobileHeader  />
+    </section>
     <Head />   
     <Nav  />
     <Banner />
 
-    <section ref ={stickyElementRef} 
+    {/* <section ref ={stickyElementRef} 
     className={isSticky ? 'drop-shadow-filter header-section sticky' : 'hide'}>  
     <MobileHeader  />
-    </section>
+    </section> */}
   
     <BodyHeader />
 
