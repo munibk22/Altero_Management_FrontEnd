@@ -71,7 +71,7 @@ function App() {
     <Banner />
 
     <section ref ={stickyElementRef} 
-    className={isSticky ? 'drop-shadow-filter header-section sticky active' : 'hide'}>  
+    className={isSticky ? 'drop-shadow-filter header-section sticky' : 'hide'}>  
     <MobileHeader  />
     </section>
   
