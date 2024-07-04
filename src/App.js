@@ -29,7 +29,7 @@ function App() {
       const stickyElementOffsetTop = stickyElement.offsetTop;
       const scrollPosition = window.scrollY || document.documentElement.scrollTop;
 
-      if (scrollPosition >= 0) {          
+      if (scrollPosition >= 50) {          
         setIsStickyActive(()=>true);
         // header.classList.toggle('show');
         // header.classList.toggle('show','active')
