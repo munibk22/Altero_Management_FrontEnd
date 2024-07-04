@@ -17,7 +17,7 @@ function App() {
     // Change the number 150 to the point you want the element to stick at
     if (stickyElement) {
       const stickyElementOffsetTop = stickyElement.offsetTop;
-    setSticky(window.scrollY > 510);
+    setSticky(window.scrollY > 50);
 
     }
 
@@ -29,7 +29,7 @@ function App() {
       const stickyElementOffsetTop = stickyElement.offsetTop;
       const scrollPosition = window.scrollY || document.documentElement.scrollTop;
 
-      if (scrollPosition >= 0) {          
+      if (scrollPosition >= 50) {          
         setIsStickyActive(()=>true);
         // header.classList.toggle('show');
         // header.classList.toggle('show','active')
