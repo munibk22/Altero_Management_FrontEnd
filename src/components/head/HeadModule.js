@@ -56,7 +56,7 @@ export default function HeadModule() {
             <br />
             <div className="">
                 <h4>3950 Sunforest Court <br /> 
-                TOLEDO, Oh4 43623</h4>
+                TOLEDO, OH 43623</h4>
                 <a href="tel:6368754054" className="tel" >Call us at 419-329-0745 </a>
             </div>
         </div>
