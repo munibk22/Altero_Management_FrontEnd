@@ -55,8 +55,9 @@ export default function HeadModule() {
             }}>Your Trusted Invesment Partner 💵</p>
             <br />
             <div className="">
-                <h5>TOLEDO, OH  43623</h5>
-                <a href="tel:6368754054" className="tel" >Call us at 636-875-4055 </a>
+                <h4>3950 Sunforest Court <br /> 
+                TOLEDO, Oh4 43623</h4>
+                <a href="tel:6368754054" className="tel" >Call us at 419-329-0745 </a>
             </div>
         </div>
 

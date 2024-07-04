@@ -21,9 +21,9 @@ function Footer({aosStyle}) {
             <p>Contact Us:</p>
           <p>Ready to take the next step? Reach out today!
             </p>
-            <p>📞Call us at: (123) 456-7890 
+            <p>📞Call us at: (419) 329-0745
             </p>
-          <span className='footer-info-section'>📧 Email us at whisperwind22@gmail.com</span> 
+          <span className='footer-info-section'>📧 Email us at munibkhan@alteromanagement.com</span> 
           <p>We are always ready to assist you.</p> 
 
                 <hr />
