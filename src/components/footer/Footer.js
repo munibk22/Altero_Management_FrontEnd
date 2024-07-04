@@ -23,7 +23,7 @@ function Footer({aosStyle}) {
             </p>
             <p>📞Call us at: (419) 329-0745
             </p>
-          <span className='footer-info-section'>📧 Email us at munibkhan@alteromanagement.com</span> 
+          <span className='footer-info-section'>📧 Email us at contact@alteromanagement.com</span> 
           <p>We are always ready to assist you.</p> 
 
                 <hr />
